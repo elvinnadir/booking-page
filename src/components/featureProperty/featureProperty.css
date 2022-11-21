@@ -1,0 +1,44 @@
+.feature_property {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.feature_property_item {
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.feature_property_img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.feature_property-name {
+    font-weight: bold;
+}
+
+.feature_property-city {
+    font-weight: 300;
+}
+
+.feature_property-price {
+    font-weight: 300;
+}
+
+.feature_property-rate>button {
+    background-color: #003580;
+    color: #fff;
+    border: none;
+    padding: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.feature_property-rate > span{
+    font-size: 14px;
+}

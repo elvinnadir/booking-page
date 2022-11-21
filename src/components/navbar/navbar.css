@@ -1,0 +1,28 @@
+.navbar {
+    height: 50px;
+    background-color: #003580;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar_container {
+    width: 100%;
+    max-width: 1024px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar_logo {
+    font-weight: 500;
+}
+
+.navbar_items_btn {
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: blue;
+}
